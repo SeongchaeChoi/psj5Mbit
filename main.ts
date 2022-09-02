@@ -1,4 +1,7 @@
 let result = ""
+basic.showIcon(IconNames.Happy)
+basic.pause(100)
+basic.clearScreen()
 serial.redirect(
 SerialPin.USB_TX,
 SerialPin.USB_RX,
